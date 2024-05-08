@@ -12,6 +12,7 @@ function validateSyntax() {
   // Takes the year converts it to a number then checks if its in range
   let petBirthYear = input.slice(4, 8);
 
+  // Isn't actually needed
   petBirthYear = +petBirthYear;
 
   if (petBirthYear >= 1900 && petBirthYear <= 2024) {
