@@ -3,6 +3,8 @@ function validateSyntax() {
   let result = "";
 
   // Converts input to lower case
+  //  This is what would be passed to the backend,
+  //  just for mobile devices that always start with a capital
   input = input.toLowerCase();
 
   // Takes the first 4 characters and checks if its equal to "pet_"
